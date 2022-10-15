@@ -1,4 +1,7 @@
 # React Mini Project
+![image](https://user-images.githubusercontent.com/109253977/196010390-2b54caa5-4687-4fd5-a79d-b43c643a5504.png)
+
+
 
 ## Live Demo
 
