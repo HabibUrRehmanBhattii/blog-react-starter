@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-header {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    background: #F55A5A;
+    gap: 10px;
+    padding-top: 5px;
+
+}
+
+.App-logo {
+
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.App-title {
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 15px;
+    width: 470px;
+    height: 170px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+
+.card__image {
+    margin-left: 100px;
+    width: 450px;
+    height: 335px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card__location {
+    width: 300px;
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+
+.card__geo{
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-top: 15px;
+}
+
+.fa-map-marker-alt {
+    color: #F55A5A;
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+.card__heading {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.card__date {
+    
+    color: #2B283A;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.card__description {
+    width: 40vw;
+    color: #2B283A;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 40px;
+}
